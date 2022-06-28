@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 1 | Flip Card Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="main">
+            <div class="card">
+                <input type="checkbox" id="card1" class="more" aria-hidden="true">
+                <div class="content">
+                    <div class="front">
+                        <div class="inner">
+                            <div id="question-container">
+                                <h2 id="question">Q.) OS computer abbreviation usually means?</h2>
+                            </div>
+                            <label for="card1" class="button" id="start-btn" aria-hidden="true">
+                                Flip to see the Answer
+                            </label>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="inner">
+                            <div id="answer-container">
+                                <h2 id="answer">Operating System</h2>
+                            </div>
+                            <label for="card1" class="button return" id="next-btn" aria-hidden="true" onclick="">
+                                <a href="ques_2.html">Next question</a>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
